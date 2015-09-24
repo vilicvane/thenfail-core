@@ -1,7 +1,7 @@
 {
   "name": "thenfail",
   "version": "0.3.3",
-  "description": "Promises/A+ implementation with the ability to break or cancel the chain. Written in TypeScript.",
+  "description": "Core of ThenFail, a Promises/A+ implementation written in TypeScript.",
   "main": "bld/thenfail.js",
   "typings": "bld/thenfail.d.ts",
   "directories": {
@@ -13,7 +13,7 @@
     "promises-aplus-tests": "latest"
   },
   "scripts": {
-    "test": "./node_modules/.bin/mocha && promises-aplus-tests test/aplus/adapter.js"
+    "test": "promises-aplus-tests test/aplus/adapter.js"
   },
   "registry": "npm",
   "repository": {
